@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Todos from "./Components/Todos/Todos";
 import Users from "./Components/Users/Users";
 import NotFound from "./Components/404/NotFound";
-import logo from "./assets/images/logo.png";
+import logo from "./assets/images/logo.webp";
 import { Body, Container, Header, Section } from "./App.styles";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Body>
       <Container>
         <Header>
-          <img src={logo} alt="chari's logo" className="logo-img" />
+          <img src={logo} alt="gemography's logo" className="logo-img" />
         </Header>
         <Section>
           <Routes>
